@@ -2,8 +2,8 @@
 	import { onMount } from 'svelte';
 
 	onMount(async () => {
-		await import('lite-youtube-embed/src/lite-yt-embed.js');
 		await import('lite-youtube-embed/src/lite-yt-embed.css');
+		await import('lite-youtube-embed/src/lite-yt-embed.js');
 	});
 </script>
 
