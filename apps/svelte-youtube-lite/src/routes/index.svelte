@@ -1,3 +1,12 @@
+<script>
+	import { onMount } from 'svelte';
+
+	onMount(async () => {
+		await import('lite-youtube-embed/src/lite-yt-embed.js');
+		await import('lite-youtube-embed/src/lite-yt-embed.css');
+	});
+</script>
+
 <lite-youtube
 	videoid="S7j0ZtXq7Go"
 	style="background-image: url('https://i.ytimg.com/vi/S7j0ZtXq7Go/hqdefault.jpg');"
