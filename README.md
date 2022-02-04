@@ -1,7 +1,9 @@
 # React Vs Svelte Experiments
 
 This is an experiment repo to compare React and Svelte on some cases, specifically using their own metaframework (Next JS and Svelte Kit)
+
 https://sveltekit-youtube-lite.vercel.app
+
 https://nextjs-youtube-lite.vercel.app
 
 ## Comparison
