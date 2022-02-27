@@ -2,12 +2,16 @@
 
 This is an experiment repo to compare React and Svelte on some cases, specifically using their own metaframework (Next JS and Svelte Kit)
 
+https://sveltekit-youtube-lite.vercel.app
+
+https://nextjs-youtube-lite.vercel.app
+
 ## Comparison
 
 ### lite-youtube-embed
 
-| `react-lite-youtube-embed` |  vanilla JS `lite-youtube-embed` |
+| `react-lite-youtube-embed` on NextJS |  `lite-youtube-embed` on SvelteKit |
 |---|---|
-![image](https://user-images.githubusercontent.com/25606110/152191792-b4608dc2-6f91-41f2-acfe-f640750db993.png) ![image](https://user-images.githubusercontent.com/25606110/152191934-b7af1078-4527-4cb2-813f-f8253afe8842.png) | ![image](https://user-images.githubusercontent.com/25606110/152191727-20f07294-2efc-4319-bb2f-d1743528e416.png) ![image](https://user-images.githubusercontent.com/25606110/152191992-da1b3ef7-cb49-464b-9185-e29fc37136b3.png)
+![image](https://user-images.githubusercontent.com/25606110/152260248-01939116-9a87-429c-9794-5e0764f54ad1.png) ![image](https://user-images.githubusercontent.com/25606110/152260296-8f5cb1c3-8ed5-4c78-b96d-e51d9b8a31a4.png) | ![image](https://user-images.githubusercontent.com/25606110/152294857-a4143d90-14a2-422e-9bcf-91743e070079.png) ![image](https://user-images.githubusercontent.com/25606110/152260277-2d929116-d1ee-4a59-ad39-a12968048718.png)
 
-Like expected, Svelte could be the clear winner on this. The initial load to load thumbnail is tremendously faster in SvelteKit rather than NextJS. We could also see the network tab which SvelteKit require less data download rather than NextJS
+Like expected, SvelteKit is winner on this round. Total blocking time in SvelteKit is less than NextJS and in network tab, SvelteKit downloaded less data than NextJS
